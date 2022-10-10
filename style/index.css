@@ -1,0 +1,173 @@
+.background{
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    background-image: 
+    radial-gradient(closest-side, rgba(242, 238, 229,1), rgba(242, 238, 229,0)),
+    radial-gradient(closest-side, rgb(255, 214, 170, 1), rgba(255, 214, 170,0)),
+    radial-gradient(closest-side, rgb(242, 238, 229, 1), rgba(242, 238, 229,0)),
+    radial-gradient(closest-side, rgb(254, 245, 212, 1), rgba(254, 245, 212,0)),
+    radial-gradient(closest-side, rgb(217, 183, 176, 1), rgba(217, 183, 176,0));
+    
+    background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax;
+
+    background-position:
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax,
+    -30vmax -10vmax,
+    50vmax 50vmax;
+
+    background-repeat: no-repeat;
+    animation: 3s movement linear infinite;
+}
+@keyframes movement {
+    0%, 100% {
+        background-size: 
+        130vmax 130vmax,
+        80vmax 80vmax,
+        90vmax 90vmax,
+        110vmax 110vmax,
+        90vmax 90vmax;
+    
+        background-position:
+        -80vmax -80vmax,
+        60vmax -30vmax,
+        10vmax 10vmax,
+        -30vmax -10vmax,
+        50vmax 50vmax;
+    }
+    25% {
+        background-size: 
+        100vmax 100vmax,
+        90vmax 90vmax,
+        100vmax 100vmax,
+        90vmax 90vmax,
+        60vmax 60vmax;
+    
+        background-position:
+        -60vmax -90vmax,
+        50vmax -40vmax,
+        0vmax 20vmax,
+        -40vmax -20vmax,
+        40vmax 60vmax;
+    }
+    50%{
+        background-size: 
+        80vmax 80vmax,
+        110vmax 110vmax,
+        80vmax 80vmax,
+        60vmax 60vmax,
+        80vmax 80vmax;
+    
+        background-position:
+        -50vmax -70vmax,
+        40vmax -30vmax,
+        10vmax 0vmax,
+        20vmax 10vmax,
+        30vmax 70vmax;
+    }
+    75%{
+        background-size: 
+        90vmax 90vmax,
+        90vmax 90vmax,
+        100vmax 100vmax,
+        90vmax 90vmax,
+        70vmax 70vmax;
+    
+        background-position:
+        -50vmax -40vmax,
+        50vmax -30vmax,
+        20vmax 0vmax,
+        -10vmax 10vmax,
+        40vmax 60vmax;
+    }
+}
+
+
+body{
+    background-image: url("/image/bodyBackground/space5.jpg");
+    background-size: cover;
+}
+
+.favicon{
+    border-radius: 50%;
+}
+
+.box{
+    width: 800px;
+    height: 500px;
+    /*background: rgba(172, 208, 205, 0.183);*/
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    color: rgba(218, 148, 49, 0.851);  
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+img{
+    max-width: 250px;
+    max-height: 250px;
+    padding: 20px;
+}
+
+#clickMe{
+    background-color: rgb(232, 216, 145);
+    border-color: rgb(235, 225, 25);
+
+}
+#card{
+background-color: rgba(204, 180, 202, 0.34);
+    height: 500px;
+    font-weight: 400px;
+    padding: 20px;
+    background-image: url("/image/background/flower5.JPG");
+    background-size: cover;
+    border: 2px solid rgba(170, 152, 100, 0.158);
+
+}
+
+
+
+  .chloe {
+    opacity: 0;
+  }
+  .chloe span  {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    opacity: 0;
+  }
+  
+
+
+  .welcome {
+    opacity: 0;
+  }
+  .welcome span {
+    position: relative;
+    left: -10px;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+
+
+  .click {
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    opacity: 0;
+    transition: 1s 1.5s;
+     color: rgba(214, 174, 125, 0.499);
+  }
+

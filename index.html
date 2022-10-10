@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" class="favicon" type="image/jpg" href="favicon2.jpg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/index.css">
+
+  <title>Welcome</title>
+</head>
+
+
+<body>
+
+
+
+  <!--My welcoming card-->
+      <section class="background">
+        <section class="box">
+
+          <div class="container">
+            <div class="row col-6">
+
+          <div id="card" class="position-absolute top-50 start-50 translate-middle" style="width: 21rem;">
+            <img src="image/icon/welcome_icon.jpg" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title" class="hello">~ Hello ~</h5>
+
+              <p class="card-text">
+              <p class="chloe"> I am Chloe <i class="fa-solid fa-face-laugh-wink animate__animated animate__flip"></i>
+              </p>
+
+              <span class="welcome"> Welcome to my page </span> <br>
+
+              <span class="click" style=" color: rgba(214, 174, 125, 0.499);"> <i
+                  class="fa-solid fa-hand-point-down"></i> Click the below button <i
+                  class="fa-solid fa-hand-point-down"></i>to explore more! </span></p>
+
+              <a href="album_page.html" class="btn btn-primary " id="clickMe"> <span
+                  class="animate__animated animate__flash animate__delay-2s	2s animate__slower	10s animate__infinite">
+                  Visit now </span> </a>
+
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Wording effect-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="others/textyle.min.js"></script>
+
+  <script>
+    $(window).on('load', function () {
+      //simple use
+      $('.chloe').textyle({
+        duration: 400,
+        delay: 100,
+        easing: 'swing',
+        callback: function () {
+          $(this).css({
+            color: 'Sand Beige',
+            transition: '1s',
+          });
+          $('.click').css('opacity', 1);
+        }
+      });
+
+      //can select options or add callback
+      $('.welcome').textyle({
+        duration: 400,
+        delay: 100,
+        easing: 'swing',
+        callback: function () {
+          $(this).css({
+            color: 'Sand Beige',
+            transition: '1s',
+          });
+          $('.click').css('opacity', 1);
+        }
+      });
+    });
+  </script>
+  <script src="main.js"> </script>
+  <!--link to my js-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--linking to bootstrap-->
+  <script src="https://kit.fontawesome.com/2c04712079.js" crossorigin="anonymous"></script> <!-- For the little icon-->
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+.site-wrap {
+    overflow-x: hidden
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: rgba(100, 63, 12, 0.967) !important;
+}
+
+
+
+h2 {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgba(138, 73, 43, 0.822) !important;
+}
+
+
+
+
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+body {
+
+    background-color: rgba(75, 70, 73, 0.175);
+    background-image: url("/image/bodyBackground/space3.jpg");
+
+}
+
+/*Welcome*/
+.navbar {
+    background-color: rgba(210, 203, 195, 0.7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(142, 38, 100, 0.175)
+}
+
+
+/* Brief */
+.brief {
+    padding: 109px;
+    text-align: center;
+
+    background-image:
+        radial-gradient(closest-side, rgba(157, 117, 83, 1), rgba(157, 117, 83, 0)),
+        radial-gradient(closest-side, rgb(169, 139, 115, 1), rgba(169, 139, 115, 0)),
+        radial-gradient(closest-side, rgba(218, 190, 167, 1), rgba(218, 190, 167, 0)),
+        radial-gradient(closest-side, rgba(135, 109, 90, 1), rgba(135, 109, 90, 0)),
+        radial-gradient(closest-side, rgb(205, 165, 129, 1), rgba(205, 165, 129, 0));
+
+
+
+    background-repeat: no-repeat;
+
+
+    animation: 5s movement linear infinite;
+}
+
+
+@keyframes movement {
+
+    0%,
+    100% {
+        background-size:
+            130vmax 130vmax,
+            80vmax 80vmax,
+            90vmax 90vmax,
+            110vmax 110vmax,
+            90vmax 90vmax;
+
+        background-position:
+            -80vmax -80vmax,
+            60vmax -30vmax,
+            10vmax 10vmax,
+            -30vmax -10vmax,
+            50vmax 50vmax;
+    }
+
+    25% {
+        background-size:
+            100vmax 100vmax,
+            90vmax 90vmax,
+            100vmax 100vmax,
+            90vmax 90vmax,
+            60vmax 60vmax;
+
+        background-position:
+            -60vmax -90vmax,
+            50vmax -40vmax,
+            0vmax 20vmax,
+            -40vmax -20vmax,
+            40vmax 60vmax;
+    }
+
+    50% {
+        background-size:
+            80vmax 80vmax,
+            110vmax 110vmax,
+            80vmax 80vmax,
+            60vmax 60vmax,
+            80vmax 80vmax;
+
+        background-position:
+            -50vmax -70vmax,
+            40vmax -30vmax,
+            10vmax 0vmax,
+            20vmax 10vmax,
+            30vmax 70vmax;
+    }
+
+    75% {
+        background-size:
+            90vmax 90vmax,
+            90vmax 90vmax,
+            100vmax 100vmax,
+            90vmax 90vmax,
+            70vmax 70vmax;
+
+        background-position:
+            -50vmax -40vmax,
+            50vmax -30vmax,
+            20vmax 0vmax,
+            -10vmax 10vmax,
+            40vmax 60vmax;
+    }
+}
+
+
+
+
+.brief #icon {
+    border-radius: 50%;
+    width: 200px;
+    height: 100%;
+    border: 1px solid #784d1c6f;
+}
+
+.brief #sentence {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+
+.changeColor {
+    color: rgba(121, 91, 61, 0.816);
+}
+
+#left_icon {
+    color: #64413ad4;
+    position: relative;
+    left: -50px;
+}
+
+#right_icon {
+    color: #64413ad4;
+    /* position: relative;
+    right: -500px; */
+}
+
+/* Introduction */
+.introduction {
+    background-color: #e5d3d12b;
+    /*
+    background-image:url("/image/background/background.jpg") !important;
+    */
+    background-size: cover;
+    /* width:600x;
+    height:400px; */
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-image: url("/image/background/white.jpg");
+
+    position: relative;
+
+}
+
+.introduction #selfintro {
+    /*border: 2px solid rgb(231, 214, 178);*/
+    width: 800px;
+    background: rgba(141, 97, 97, 0.238);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+}
+
+
+/* Life */
+.carousel-item {
+    background-repeat: no-repeat;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+
+.life {
+    /* width: 600x;
+    height: 700px; */
+    padding: 40px;
+    background-color: #f3efe8d1;
+    /* background-image: url("/image/background/space1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.life img {
+    border-radius: 5%;
+}
+
+.container {
+    align-items: center;
+    padding: 20px;
+
+    /*
+    width: 600px;
+    background: rgba(141, 97, 97, 0.238);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    */
+}
+
+/*
+ .container h2{
+    border-bottom: #a5969395 double;
+}
+*/
+
+.life p {
+    color: #ffffffd1
+}
+
+.life h5 {
+    color: #ffffffce
+}
+
+/* Contact*/
+.contact {
+    background-color: rgb(227, 223, 216);
+    padding: 50px;
+    background-size: 100%;
+}
+
+.contact_pic {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact li {
+    color: rgb(171, 113, 58);
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+
+#smallicon {
+    min-width: 40px;
+    height: 40px;
+    color: rgba(139, 93, 53, 0.762);
+}
+
+.end,
+#contact_information {
+    text-align: center;
+}
+
+.end {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    color: rgba(75, 70, 73, 0.521)
+}
+
+#back {
+    float: right;
+}
+
+#back:hover {
+    background: linear-gradient(to right, #b79891, #94716b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 700px) {
+    .life {
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .introduction {
+        height: 500px;
+    }
+}
+
+.skillHeaderBorder {
+    font-size: 25px;
+    color: #59423e;
+    font-family:'Alkalami',serif;
+}
+
+.skillBorder {
+    padding: 10px;
+    /* border: 1.5px solid rgb(129, 121, 121); */
+    border-radius: 20%;
+    color: rgb(129, 121, 121);
+    background-color: #c9c3c3b5;
+}
+
+
+
+
+/* Skill */
+.skill {
+    padding: 40px;
+    background-color: #c9beaed1;
+    background-repeat: no-repeat;
+    font-family: 'Alkalami', serif;
+}
+
+
+.rmLinkStyle {
+    color: #f8f3f2c9;
+}
+
+
+
+.rmLinkStyle:hover {
+    color: #b08b83c9;
+}
+
+
+
+
+#moreApplications {
+    color: #59423e;
+    font-size: 20px;
+}
+
+
+.rmLinkStyleApplication{
+    color: #b08b83c9;
+}
+
+.rmLinkStyleApplication:hover{
+    color: #251b18c9;
+}
+
+.eachHeader{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.codeBg{
+   background-color: rgba(255, 255, 255, 0.633);
+}
