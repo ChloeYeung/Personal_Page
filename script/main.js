@@ -1,3 +1,2 @@
-
-$('.my-paroller').paroller();
+$(".my-paroller").paroller();
 

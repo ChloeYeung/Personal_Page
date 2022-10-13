@@ -109,8 +109,6 @@ $('#selfintro4').hover(function () {
 
 
 
-
-
 $('#selfintro5').jrumble({
 	speed: 10,
 	x: 1,
@@ -130,16 +128,6 @@ var emojiStop = function () {
 };
 
 emojiStart();
-/*// Initialize jRumble on Selector
-$('#rumble-element').jrumble();
-
-// Start rumble on element
-$('#rumble-element').trigger('startRumble');
-
-// Stop rumble on element
-$('#rumble-element').trigger('stopRumble');
-*/
-
 
 
 $('.skillBorderCol').jrumble({
